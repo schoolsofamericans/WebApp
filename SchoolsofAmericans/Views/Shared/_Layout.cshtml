@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <title>@ViewData["Title"] - SchoolsofAmericans</title>
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />*@
+    <link href="~/css/mygrid.css" rel="stylesheet" />
+    <link href="~/css/form.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="brand">
+                    <h1>Schools of Americans</h1>
+                </div>
+                <div class="mobile-nav">
+                    <span class="mn-stripe"></span>
+                    <span class="mn-stripe"></span>
+                    <span class="mn-stripe"></span>
+                </div>
+                <div class="mn-balance"></div>
+                <ul class="nav">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="contain">
+            <div class="row">
+                <div class="push-g-7 g-7">
+                    <h1>Schools of Americans</h1>
+                    <a href="#" class="btn">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="flexrow">
+        <div class="menucol">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti itaque, quos maiores temporibus voluptate magnam
+            nulla aperiam, vero similique suscipit fugiat accusamus est, harum inventore natus obcaecati necessitatibus
+            reprehenderit esse!
+        </div>
+        <div class="bodycol">
+            @RenderBody()
+        </div>
+        <div class="newscol">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt odio, at fugit suscipit, natus voluptas
+            assumenda
+            a quas perferendis earum nulla alias ipsum eius, amet quod incidunt hic illo libero.
+        </div>
+    </div>
+
+
+    @*<div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>*@
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - SchoolsofAmericans - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @*<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>*@
+    <script src="~/js/main.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
