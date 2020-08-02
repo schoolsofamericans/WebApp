@@ -5,9 +5,16 @@
 }
 
 body {
-    font-family: Verdana, Geneva, sans-serif;
     font-size: 14px;
-    background: #f2f2f2;
+    background: #f9f9f9; /* fallback for old browsers */
+    font-family: "Raleway", sans-serif;
+    color: #151515;
+}
+
+label {
+    color: black;
+    font-weight: 600;
+    font-size: 0.85em;
 }
 
 .wrapper {
@@ -19,12 +26,13 @@ body {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
-.wrapper h2 {
-    font-size: 24px;
-    line-height: 24px;
-    padding-bottom: 30px;
-    text-align: left;
-}
+    .wrapper h2 {
+        font-size: 24px;
+        line-height: 24px;
+        padding-bottom: 10px;
+        text-align: left;
+        border-bottom: 1px solid #A75151;
+    }
 
 .input-name {
     width: 90%;
@@ -43,9 +51,12 @@ body {
 
 .text-name, .text-area {
     width: 100%;
-    padding: 8px 0 8px 20px;
+    padding: 8px 0 8px 10px;
 }
 
+.text-danger {
+    color: #dc3545 !important;
+}
 
 .email {
     padding: 8px;

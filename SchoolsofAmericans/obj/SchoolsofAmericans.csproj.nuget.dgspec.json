@@ -1,33 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learning\\SchoolsofAmericans-master\\SchoolsofAmericans\\SchoolsofAmericans.csproj": {}
+    "C:\\Projects\\Schoolsofamericans\\SchoolsofAmericans\\SchoolsofAmericans.csproj": {}
   },
   "projects": {
-    "D:\\Learning\\SchoolsofAmericans-master\\SchoolsofAmericans\\SchoolsofAmericans.csproj": {
+    "C:\\Projects\\Schoolsofamericans\\SchoolsofAmericans\\SchoolsofAmericans.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\SchoolsofAmericans-master\\SchoolsofAmericans\\SchoolsofAmericans.csproj",
+        "projectUniqueName": "C:\\Projects\\Schoolsofamericans\\SchoolsofAmericans\\SchoolsofAmericans.csproj",
         "projectName": "SchoolsofAmericans",
-        "projectPath": "D:\\Learning\\SchoolsofAmericans-master\\SchoolsofAmericans\\SchoolsofAmericans.csproj",
-        "packagesPath": "C:\\Users\\subbaig\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\SchoolsofAmericans-master\\SchoolsofAmericans\\obj\\",
+        "projectPath": "C:\\Projects\\Schoolsofamericans\\SchoolsofAmericans\\SchoolsofAmericans.csproj",
+        "packagesPath": "C:\\Users\\mural\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Schoolsofamericans\\SchoolsofAmericans\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\subbaig\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\mural\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\newBackup\\brittapps-chandan-intacct-import-utility-ecc2fc356b0f\\LocalPackage": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.3, )"
@@ -59,12 +57,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -73,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

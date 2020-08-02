@@ -1,0 +1,67 @@
+﻿@model RegistrationViewModel
+
+@{
+    ViewData["Title"] = "Registration";
+}
+
+<div class="wrapper">
+    <h2>
+        Schools Registration Form
+    </h2>
+    @*<div class="form-conteniar">*@
+    <form>
+
+        <div class="input-name">
+            @Html.TextBoxFor(m => m.SchoolName, new { placeholder = "School Name", @class = "text-name" })
+            @*<input type="text" placeholder="First Name" class="name">
+                <span class="last">
+                    <input type="text" placeholder="Last Name" class="name">
+                </span>*@
+        </div>
+
+        <div class="input-name">
+            @Html.TextAreaFor(m => m.Address1, new { placeholder = "Address1", @class = "text-area" })
+        </div>
+
+        <div class="input-name">
+            @Html.TextAreaFor(m => m.Address2, new { placeholder = "Address2", @class = "text-area" })
+        </div>
+        <div class="input-name">
+            @Html.TextBoxFor(m => m.City, new { placeholder = "City", @class = "text-name" })
+        </div>
+        <div class="input-name">
+            @Html.TextBoxFor(m => m.State, new { placeholder = "State", @class = "text-name" })
+
+        </div>
+        <div class="input-name">
+            @Html.TextBoxFor(m => m.Zipcode, new { placeholder = "Zip Code", @class = "text-name" })
+
+        </div>
+        <div class="input-name">
+            <span>State License Status : </span>
+            Yes
+            @Html.RadioButtonFor(m => m.LicenseStatus, "Yes")
+            No
+            @Html.RadioButtonFor(m => m.LicenseStatus, "No")
+        </div>
+
+
+        <div class="input-name">
+            @Html.DropDownList("BranchType",
+                    new SelectList(Enum.GetValues(typeof(BranchType))),
+                    "BranchType",
+                    new { @class = "branchtype" })
+            <div class="arrow">
+            </div>
+
+        </div>
+        <div class="input-name">
+            <input type="checkbox" id="cb1" class="chack-button">
+            <label for="cb1" class="chack">I agree with terms and conditions</label>
+        </div>
+        <div class="input-name">
+            <input class="button" type="submit" value="Register" />
+        </div>
+    </form>
+
+</div>

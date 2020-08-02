@@ -20,7 +20,14 @@ namespace SchoolsofAmericans.Controllers
 
         public IActionResult Index()
         {
-            return View("PreRegistration", new PreRegistration { EmailId="Osgopinath@gmail.com", SchoolName ="Schools of Americans", UserName = "Gopinath" });
+            return View("PreRegistration", new PreRegistration { });
+            // return View("PreRegistration", new PreRegistration { EmailId="Osgopinath@gmail.com", SchoolName ="Schools of Americans", UserName = "Gopinath" });            
+        }
+
+
+        public IActionResult Registration()
+        {
+            return View();
         }
 
         public IActionResult Privacy()
