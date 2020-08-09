@@ -1,0 +1,9 @@
+D:\Learning\SchoolsofAmericans-master\ExternalLib\bin\Debug\netcoreapp3.1\ExternalLib.deps.json
+D:\Learning\SchoolsofAmericans-master\ExternalLib\bin\Debug\netcoreapp3.1\ExternalLib.dll
+D:\Learning\SchoolsofAmericans-master\ExternalLib\bin\Debug\netcoreapp3.1\ExternalLib.pdb
+D:\Learning\SchoolsofAmericans-master\ExternalLib\obj\Debug\netcoreapp3.1\ExternalLib.csprojAssemblyReference.cache
+D:\Learning\SchoolsofAmericans-master\ExternalLib\obj\Debug\netcoreapp3.1\ExternalLib.AssemblyInfoInputs.cache
+D:\Learning\SchoolsofAmericans-master\ExternalLib\obj\Debug\netcoreapp3.1\ExternalLib.AssemblyInfo.cs
+D:\Learning\SchoolsofAmericans-master\ExternalLib\obj\Debug\netcoreapp3.1\ExternalLib.csproj.CoreCompileInputs.cache
+D:\Learning\SchoolsofAmericans-master\ExternalLib\obj\Debug\netcoreapp3.1\ExternalLib.dll
+D:\Learning\SchoolsofAmericans-master\ExternalLib\obj\Debug\netcoreapp3.1\ExternalLib.pdb

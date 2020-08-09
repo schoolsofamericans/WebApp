@@ -5,6 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using SchoolDBLib;
+using SchoolModel;
 using SchoolsofAmericans.Models;
 
 namespace SchoolsofAmericans.Controllers
@@ -20,7 +22,16 @@ namespace SchoolsofAmericans.Controllers
 
         public IActionResult Index()
         {
-            return View("PreRegistration", new PreRegistration { EmailId="Osgopinath@gmail.com", SchoolName ="Schools of Americans", UserName = "Gopinath" });
+            return View("PreRegistration", new PreRegistration { EmailId="", SchoolName ="", UserName = "" });
+        }
+
+
+        [HttpPost]
+
+        public IActionResult Index(PreRegistration preRegistration)
+        {
+           ViewBag.Result = InsertPreRegistratio(preRegistration);
+            return View();
         }
 
         public IActionResult Privacy()
@@ -34,10 +45,22 @@ namespace SchoolsofAmericans.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        [HttpPost]
-        public void PreRegistration(PreRegistration preRegistration)
+        public void PreRegistrationAction(PreRegistration preRegistration)
         {
+        }
 
+        private static string InsertPreRegistratio(PreRegistration preRegistration)
+        {
+            PreRegistrationModel preRegistrationModel = new PreRegistrationModel
+            {
+                EmailId = preRegistration.EmailId,
+                UserName = preRegistration.UserName,
+                SchoolName = preRegistration.SchoolName
+            };
+
+            PreRegistrationCurd preRegistrationCurd = new PreRegistrationCurd();
+
+            return  preRegistrationCurd.AddPreRegistration(preRegistrationModel);
         }
     }
 }

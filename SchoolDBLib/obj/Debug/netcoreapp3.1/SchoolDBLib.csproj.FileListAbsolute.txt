@@ -1,0 +1,12 @@
+D:\Learning\SchoolsofAmericans-master\SchoolDBLib\obj\Debug\netcoreapp3.1\SchoolDBLib.csprojAssemblyReference.cache
+D:\Learning\SchoolsofAmericans-master\SchoolDBLib\obj\Debug\netcoreapp3.1\SchoolDBLib.AssemblyInfoInputs.cache
+D:\Learning\SchoolsofAmericans-master\SchoolDBLib\obj\Debug\netcoreapp3.1\SchoolDBLib.AssemblyInfo.cs
+D:\Learning\SchoolsofAmericans-master\SchoolDBLib\obj\Debug\netcoreapp3.1\SchoolDBLib.csproj.CopyComplete
+D:\Learning\SchoolsofAmericans-master\SchoolDBLib\bin\Debug\netcoreapp3.1\SchoolDBLib.deps.json
+D:\Learning\SchoolsofAmericans-master\SchoolDBLib\bin\Debug\netcoreapp3.1\SchoolDBLib.dll
+D:\Learning\SchoolsofAmericans-master\SchoolDBLib\bin\Debug\netcoreapp3.1\SchoolDBLib.pdb
+D:\Learning\SchoolsofAmericans-master\SchoolDBLib\obj\Debug\netcoreapp3.1\SchoolDBLib.csproj.CoreCompileInputs.cache
+D:\Learning\SchoolsofAmericans-master\SchoolDBLib\obj\Debug\netcoreapp3.1\SchoolDBLib.dll
+D:\Learning\SchoolsofAmericans-master\SchoolDBLib\obj\Debug\netcoreapp3.1\SchoolDBLib.pdb
+D:\Learning\SchoolsofAmericans-master\SchoolDBLib\bin\Debug\netcoreapp3.1\SchoolModel.dll
+D:\Learning\SchoolsofAmericans-master\SchoolDBLib\bin\Debug\netcoreapp3.1\SchoolModel.pdb
