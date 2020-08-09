@@ -165,6 +165,12 @@ header nav li a {
   border-radius:4px;
 }
 
+.footer
+{
+    margin-top:20px;
+    border-top:1px solid #ccc ;
+    text-align:center;
+}
 /* mobile device */
 
 @media (max-width: 767px) {

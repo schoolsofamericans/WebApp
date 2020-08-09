@@ -20,6 +20,7 @@ namespace SchoolsofAmericans.Models
         /// </value>
           
         [Required]
+        [Display(Name ="User Name")]
         public string UserName { get; set; }
         /// <summary>
         /// Gets or sets the name of the school.
@@ -28,6 +29,7 @@ namespace SchoolsofAmericans.Models
         /// The name of the school.
         /// </value>
         [Required]
+        [Display(Name = "School Name")]
         public string SchoolName { get; set; }
         /// <summary>
         /// Gets or sets the email identifier.
@@ -36,6 +38,7 @@ namespace SchoolsofAmericans.Models
         /// The email identifier.
         /// </value>
         [Required]
+        [Display(Name = "Email ID")]
         public string EmailId { get; set; }
     }
 }
